@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_catalogo">
+
+    <fragment
+        android:id="@+id/navigation_catalogo"
+        android:name="com.example.restyledonate.ui.catalogo.CatalogoFragment"
+        android:label="@string/title_catalogo"
+        tools:layout="@layout/fragment_catalogo" />
+
+    <fragment
+        android:id="@+id/navigation_mensajes"
+        android:name="com.example.restyledonate.ui.mensajes.MensajesFragment"
+        android:label="@string/title_mensajes"
+        tools:layout="@layout/fragment_mensajes" />
+
+    <fragment
+        android:id="@+id/nav_donaciones"
+        android:name="com.example.restyledonate.ui.donaciones.DonacionesFragment"
+        android:label="@string/menu_donaciones"
+        tools:layout="@layout/fragment_catalogo" />
+
+    <fragment
+        android:id="@+id/nav_atencion"
+        android:name="com.example.restyledonate.ui.atencion.AtencionFragment"
+        android:label="@string/menu_atencion"
+        tools:layout="@layout/fragment_atencion" />
+
+    <fragment
+        android:id="@+id/nav_educacion"
+        android:name="com.example.restyledonate.ui.educacion.EducacionFragment"
+        android:label="@string/menu_educacion"
+        tools:layout="@layout/fragment_educacion" />
+</navigation>

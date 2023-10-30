@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "216864298505",
+    "firebase_url": "https://restyledonate-3f885-default-rtdb.firebaseio.com",
+    "project_id": "restyledonate-3f885",
+    "storage_bucket": "restyledonate-3f885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216864298505:android:0796b319192739e9f90ad8",
+        "android_client_info": {
+          "package_name": "com.example.restyledonate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPtgedLDDGqBK1TuNFZ2KGzQ38ahhPAw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
